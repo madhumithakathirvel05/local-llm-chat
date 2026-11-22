@@ -120,6 +120,14 @@ Chat Interface
 ```
 
 The application sends user prompts and conversation history to Ollama's local API. Ollama performs inference using the locally downloaded model and returns the generated response to the Streamlit interface.
+____________________________________________________________________________________________________________________________
+In app.py 
+
+Part	Meaning
+http://	Communication protocol used to send requests
+localhost	Your own computer
+11434	Ollama's default API port
+/api/chat	Ollama endpoint used for chat interactions
 
 ## License
 
